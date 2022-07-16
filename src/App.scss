@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu+Mono&display=swap');
+$default-black-color: #4f4f4f;
+
+.App {
+  display: flex;
+  height: 100%;
+}
+.main {
+  padding: 2rem 4rem;
+  h1 {
+    color: $default-black-color;
+    font-weight: 500;
+  }
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 2.5rem;
+
+  .button-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5rem;
+    min-width: 15rem;
+    width: fit-content;
+
+    span {
+      margin-bottom: 0.25rem;
+      margin-bottom: 0.5rem;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 12px;
+
+      color: #333333;
+    }
+  }
+}
+.references {
+  margin: 2rem 0;
+  font-family: "Ubuntu Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #828282;
+}
+
+.create-by {
+  margin: 2rem 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  text-align: start;
+
+  color: #a9a9a9;
+}
+.create-by span {
+  padding-bottom: 2rem;
+  text-decoration: underline;
+  font-weight: bold;
+}

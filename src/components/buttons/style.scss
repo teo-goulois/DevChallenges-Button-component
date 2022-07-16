@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+button {
+  cursor: pointer;
+  padding: 0.7rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  min-width: 81px;
+  height: 36px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+button p {
+  width: 100%;
+  text-align: center;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+button.active {
+  background: #aeaeae;
+}
+
+.label {
+  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+
+  color: #333333;
+}
+.label.active {
+  color: #828282;
+}
+
+// VARIANTS
+
+// outline
+.outline {
+  border: 1px solid #3d5afe;
+  background: white;
+  color: #3d5afe;
+}
+.outline.active {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+// text
+.text {
+  box-shadow: none;
+  background: white;
+  color: #3d5afe;
+}
+.text.active {
+  background: rgba(41, 98, 255, 0.1);
+}
+
+// DISABLESHADOW
+.disableShadow {
+  background: #3d5afe;
+  color: white;
+}
+
+// DISABLE
+.disabled {
+  color: #9e9e9e;
+}
+.disabled.active {
+  background-color: transparent;
+}
+
+// ICON
+.icon {
+  width: fit-content;
+  padding: 0.5rem 0.5rem;
+  color: white;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+}
+// start icon
+.startIcon div {
+  margin-right: 0.5rem;
+}
+// end icon
+.endIcon div {
+  margin-left: 0.5rem;
+}
+
+// SIZE
+.sm {
+  width: 73px;
+  height: 32px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  color: white;
+}
+.md {
+  width: 81px;
+  height: 36px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  color: white;
+}
+.lg {
+  width: 93px;
+  height: 42px;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+  color: white;
+}
+
+// COLOR
+.default {
+  background: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+.primary {
+  color: white;
+  background: #2962ff;
+  box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+}
+.secondary {
+  color: white;
+  background: #455a64;
+  box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+}
+.danger {
+  color: white;
+  background: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+}
+.default.active {
+  background: #aeaeae;
+}
+.primary.active {
+  background: #0039cb;
+}
+.secondary.active {
+  background: #1c313a;
+}
+.danger.active {
+  background: #9a0007;
+}
