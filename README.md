@@ -79,5 +79,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://teogoulois-website.vercel.app/)
-- GitHub [@your-username](https://github.com/teo-goulois/DevChallenges-Button-component)
+- Website [teo-goulois.com](https://teogoulois-website.vercel.app/)
+- GitHub [@teo-goulois](https://github.com/teo-goulois/DevChallenges-Button-component)
